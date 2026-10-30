@@ -16,6 +16,8 @@ namespace Subconsultas__group_by_y_having
         private string connectionString = @"Server=(localdb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\BDclientes.mdf;Integrated Security=True;"; public Form1()
         {
             InitializeComponent();
+            dgvHaving.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+        
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -65,5 +67,38 @@ namespace Subconsultas__group_by_y_having
                 }
             }
         }
+
+        private void btnFiltrarHaving_Click(object sender, EventArgs e)
+        {
+            if (!decimal.TryParse(txtUmbral.Text, out decimal umbral))
+            {
+                MessageBox.Show("Por favor, ingrese un monto válido.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            string query = @"SELECT Cliente, 
+                    SUM(Monto) AS [Total Comprado Acumulado ($)]
+                    FROM Ventas
+                    GROUP BY Cliente
+                    HAVING SUM(Monto) > @Umbral
+                    ORDER BY [Total Comprado Acumulado ($)] DESC";
+
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                using (SqlCommand cmd = new SqlCommand(query, conn))
+                {
+                    cmd.Parameters.AddWithValue("@Umbral", umbral);
+
+                    using (SqlDataAdapter da = new SqlDataAdapter(cmd))
+                    {
+                        DataTable dt = new DataTable();
+                        da.Fill(dt);
+                        dgvHaving.DataSource = dt;
+                    }
+                }
+            }
+        }
+    
     }
+    
 }

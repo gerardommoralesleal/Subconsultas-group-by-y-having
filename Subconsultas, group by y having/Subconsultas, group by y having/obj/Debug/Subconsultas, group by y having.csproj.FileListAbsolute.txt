@@ -10,3 +10,15 @@ C:\Users\usuario\Desktop\Projectos\Subconsultas, group by y having\Subconsultas,
 C:\Users\usuario\Desktop\Projectos\Subconsultas, group by y having\Subconsultas, group by y having\obj\Debug\Subconsultas, group by y having.csproj.CoreCompileInputs.cache
 C:\Users\usuario\Desktop\Projectos\Subconsultas, group by y having\Subconsultas, group by y having\obj\Debug\Subconsultas, group by y having.exe
 C:\Users\usuario\Desktop\Projectos\Subconsultas, group by y having\Subconsultas, group by y having\obj\Debug\Subconsultas, group by y having.pdb
+C:\Users\gumme\source\repos\Subconsultas-group-by-y-having\Subconsultas, group by y having\Subconsultas, group by y having\bin\Debug\BDclientes.mdf
+C:\Users\gumme\source\repos\Subconsultas-group-by-y-having\Subconsultas, group by y having\Subconsultas, group by y having\bin\Debug\BDclientes_log.ldf
+C:\Users\gumme\source\repos\Subconsultas-group-by-y-having\Subconsultas, group by y having\Subconsultas, group by y having\bin\Debug\Subconsultas, group by y having.exe.config
+C:\Users\gumme\source\repos\Subconsultas-group-by-y-having\Subconsultas, group by y having\Subconsultas, group by y having\bin\Debug\Subconsultas, group by y having.exe
+C:\Users\gumme\source\repos\Subconsultas-group-by-y-having\Subconsultas, group by y having\Subconsultas, group by y having\bin\Debug\Subconsultas, group by y having.pdb
+C:\Users\gumme\source\repos\Subconsultas-group-by-y-having\Subconsultas, group by y having\Subconsultas, group by y having\obj\Debug\Subconsultas, group by y having.csproj.AssemblyReference.cache
+C:\Users\gumme\source\repos\Subconsultas-group-by-y-having\Subconsultas, group by y having\Subconsultas, group by y having\obj\Debug\Subconsultas__group_by_y_having.Form1.resources
+C:\Users\gumme\source\repos\Subconsultas-group-by-y-having\Subconsultas, group by y having\Subconsultas, group by y having\obj\Debug\Subconsultas__group_by_y_having.Properties.Resources.resources
+C:\Users\gumme\source\repos\Subconsultas-group-by-y-having\Subconsultas, group by y having\Subconsultas, group by y having\obj\Debug\Subconsultas, group by y having.csproj.GenerateResource.cache
+C:\Users\gumme\source\repos\Subconsultas-group-by-y-having\Subconsultas, group by y having\Subconsultas, group by y having\obj\Debug\Subconsultas, group by y having.csproj.CoreCompileInputs.cache
+C:\Users\gumme\source\repos\Subconsultas-group-by-y-having\Subconsultas, group by y having\Subconsultas, group by y having\obj\Debug\Subconsultas, group by y having.exe
+C:\Users\gumme\source\repos\Subconsultas-group-by-y-having\Subconsultas, group by y having\Subconsultas, group by y having\obj\Debug\Subconsultas, group by y having.pdb
